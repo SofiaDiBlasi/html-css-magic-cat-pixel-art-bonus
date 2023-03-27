@@ -1,0 +1,53 @@
+body {
+    background-color: pink;
+}
+
+.no-bg {
+    background-color: none;
+}
+
+.aqua-bg {
+    background-color: paleturquoise;
+}
+
+.black-bg {
+    background-color: black;
+}
+
+.pink-bg {
+    background-color: pink;
+}
+
+.yellow-bg {
+    background-color: palegoldenrod;
+}
+
+.green-bg {
+    background-color: palegreen;
+}
+
+.blue-bg {
+    background-color: blue;
+}
+
+.white-bg {
+    background-color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .aqua-bg {
+        background-color: fuchsia;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .aqua-bg {
+        background-color: orangered;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .aqua-bg {
+        background-color: white;
+    }
+}
